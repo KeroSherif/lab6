@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="04ucxDouGbDRkI76Z_zp">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EXixmaxuf66g_ZIryRv7-63" value="Student" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="410" width="370" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="EXixmaxuf66g_ZIryRv7-67" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="EXixmaxuf66g_ZIryRv7-63">
+          <mxGeometry x="83" y="40" width="30" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="EXixmaxuf66g_ZIryRv7-68" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="EXixmaxuf66g_ZIryRv7-63" source="EXixmaxuf66g_ZIryRv7-67" target="EXixmaxuf66g_ZIryRv7-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EXixmaxuf66g_ZIryRv7-17" value="Student logs in" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="EXixmaxuf66g_ZIryRv7-63">
+          <mxGeometry x="38" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EXixmaxuf66g_ZIryRv7-41" value="Show &quot;Already enrolled&quot; message" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="EXixmaxuf66g_ZIryRv7-63">
+          <mxGeometry x="15" y="410" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EXixmaxuf66g_ZIryRv7-26" value="Student selects a course" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="EXixmaxuf66g_ZIryRv7-63">
+          <mxGeometry x="40" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EXixmaxuf66g_ZIryRv7-42" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EXixmaxuf66g_ZIryRv7-63" source="EXixmaxuf66g_ZIryRv7-41" target="EXixmaxuf66g_ZIryRv7-106">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EXixmaxuf66g_ZIryRv7-51" value="Show enrollment confirmaction message" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="EXixmaxuf66g_ZIryRv7-63">
+          <mxGeometry x="150" y="670" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EXixmaxuf66g_ZIryRv7-52" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EXixmaxuf66g_ZIryRv7-63" source="EXixmaxuf66g_ZIryRv7-51" target="EXixmaxuf66g_ZIryRv7-106">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EXixmaxuf66g_ZIryRv7-106" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="EXixmaxuf66g_ZIryRv7-63">
+          <mxGeometry x="80" y="675" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EXixmaxuf66g_ZIryRv7-64" value="System" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="410" width="200" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="EXixmaxuf66g_ZIryRv7-96" value="Enroll student" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="EXixmaxuf66g_ZIryRv7-64">
+          <mxGeometry x="55" y="460" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EXixmaxuf66g_ZIryRv7-97" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="EXixmaxuf66g_ZIryRv7-64" source="EXixmaxuf66g_ZIryRv7-96" target="EXixmaxuf66g_ZIryRv7-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EXixmaxuf66g_ZIryRv7-100" value="Update student&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;analytics&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="EXixmaxuf66g_ZIryRv7-64">
+          <mxGeometry x="55" y="670" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EXixmaxuf66g_ZIryRv7-102" value="Already enrolled?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="EXixmaxuf66g_ZIryRv7-64">
+          <mxGeometry x="41.25" y="310" width="147.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EXixmaxuf66g_ZIryRv7-103" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="EXixmaxuf66g_ZIryRv7-64" source="EXixmaxuf66g_ZIryRv7-102" target="EXixmaxuf66g_ZIryRv7-96">
+          <mxGeometry x="-0.6363" y="5" relative="1" as="geometry">
+            <mxPoint x="90" y="240" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EXixmaxuf66g_ZIryRv7-24" value="Display available courses" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="EXixmaxuf66g_ZIryRv7-64">
+          <mxGeometry x="41.25" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EXixmaxuf66g_ZIryRv7-27" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EXixmaxuf66g_ZIryRv7-26" target="EXixmaxuf66g_ZIryRv7-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EXixmaxuf66g_ZIryRv7-101" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EXixmaxuf66g_ZIryRv7-100" target="EXixmaxuf66g_ZIryRv7-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EXixmaxuf66g_ZIryRv7-104" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EXixmaxuf66g_ZIryRv7-102" target="EXixmaxuf66g_ZIryRv7-41">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="360" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EXixmaxuf66g_ZIryRv7-18" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EXixmaxuf66g_ZIryRv7-17" target="EXixmaxuf66g_ZIryRv7-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EXixmaxuf66g_ZIryRv7-25" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EXixmaxuf66g_ZIryRv7-24" target="EXixmaxuf66g_ZIryRv7-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
